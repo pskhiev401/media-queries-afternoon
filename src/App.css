@@ -1,0 +1,82 @@
+.landing_page {
+  height: 100vh;
+  margin: 0;
+  background-image: url(./header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App_header {
+  /* background-color: #282c34; */
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.header_container_left {
+  color: #fed136;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.header_container_right {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  font-size: 0.99em;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.body {
+  color: white;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.body h2 {
+  font-family: "Droid Serif", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5em;
+}
+
+.body h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.7em;
+}
+
+.body button {
+  color: white;
+  display: flex;
+  background: #fed136;
+
+  height: 9.5vh;
+  /* width: 225px; */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.body button:hover {
+  background: #fec810;
+  opacity: 0.9;
+}
